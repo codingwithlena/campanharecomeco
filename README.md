@@ -42,12 +42,6 @@ Design Responsivo com Tailwind CSS: O uso do Tailwind CSS agilizou a implementa�
 Acessibilidade: Busquei seguir boas práticas de acessibilidade, como o uso de tags semânticas adequadas e contraste de cores suficiente, para garantir que a mensagem chegue a todos.
 
 Simplicidade e Foco: O projeto foi focado em entregar a mensagem principal de forma clara e direta, sem funcionalidades complexas desnecessárias para o objetivo proposto.
-
- Como Contribuir ou Saber Mais
-Para mais informações sobre a campanha “Um Belo Dia para Recomeçar” ou para saber como se envolver, por favor, visite:
-
-Site da Campanha: [Link para a página hospedada no GitHub Pages]
-
 Doações: https://sbb.colabore.org/recomecar
 
 Contato: giulia.mb.chan@gmail.com
