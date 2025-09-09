@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Um Belo Dia para Recomeçar</title>
+  
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>  
+  <script src="https://unpkg.com/@tailwindcss/forms"></script>
+  
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  
+  <!-- Ícones Lucide -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <!-- Cabeçalho -->
+  <header class="bg-gradient-to-r from-blue-200 to-green-200 p-8 text-center overflow-hidden">
+    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 animate__animated animate__fadeInDown">
+      Um Belo Dia para Recomeçar
+    </h1>
+    <p class="text-lg md:text-xl mt-2 text-gray-700 animate__animated animate__fadeInUp">
+      Doe esperança e transforme vidas nos presídios brasileiros.
+    </p>
+    <img src="https://i.imgur.com/xwdFsat.jpeg" 
+      alt="Bíblia aberta transmitindo paz e esperança" 
+      class="mx-auto mt-6 rounded-2xl shadow-lg w-full max-w-3xl animate__animated animate__zoomIn" />
+  </header>
+
+  <!-- Seção de Conscientização -->
+  <section class="max-w-5xl mx-auto p-6 md:p-12">
+    <h2 class="text-2xl md:text-3xl font-semibold text-blue-800 mb-4">Por que essa campanha é importante?</h2>
+    <p class="text-gray-700 leading-relaxed">
+      Os presídios brasileiros enfrentam sérios desafios, incluindo a falta de apoio espiritual e emocional. A leitura da Bíblia pode trazer esperança, paz e motivação para uma verdadeira transformação de vida.
+    </p>
+
+    <!-- Estatísticas -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-8">
+      <div class="bg-blue-100 p-6 rounded-xl shadow hover:scale-105 transition-transform duration-300">
+        <p class="text-3xl font-bold text-blue-900">+700 mil</p>
+        <p class="mt-2 text-gray-600">detentos no Brasil</p>
+      </div>
+      <div class="bg-green-100 p-6 rounded-xl shadow hover:scale-105 transition-transform duration-300">
+        <p class="text-3xl font-bold text-green-900">80%</p>
+        <p class="mt-2 text-gray-600">não recebem apoio espiritual</p>
+      </div>
+      <div class="bg-blue-100 p-6 rounded-xl shadow hover:scale-105 transition-transform duration-300">
+        <p class="text-3xl font-bold text-blue-900">1 Bíblia</p>
+        <p class="mt-2 text-gray-600">pode mudar uma vida</p>
+      </div>
+    </div>
+
+    <!-- Testemunhos -->
+    <blockquote class="mt-10 border-l-4 border-blue-500 pl-4 italic text-gray-600 animate__animated animate__fadeInUp">
+      “Dentro das grades, encontrei liberdade verdadeira ao ler a Bíblia. Hoje, tenho esperança de recomeçar.” – Ex-detento
+    </blockquote>
+  </section>
+
+  <!-- Seção de Doação -->
+  <section class="bg-blue-50 py-12 text-center px-6">
+    <h2 class="text-2xl md:text-3xl font-semibold text-blue-900">Seja parte da mudança</h2>
+    <p class="mt-4 text-gray-700 max-w-2xl mx-auto">
+      Sua doação será usada para enviar Bíblias aos presídios brasileiros, oferecendo palavras de consolo e inspiração. Cada contribuição ajuda a transformar vidas.
+    </p>
+    <a href="https://sbb.colabore.org/recomecar" target="_blank" class="inline-block mt-6 bg-green-600 text-white px-8 py-3 rounded-full shadow-lg text-lg font-semibold hover:bg-green-700 transition transform hover:scale-105">
+      Doe agora
+    </a>
+  </section>
+
+  <!-- Seção de Impacto com vídeo -->
+  <section class="max-w-5xl mx-auto p-6 md:p-12">
+    <h2 class="text-2xl md:text-3xl font-semibold text-blue-800">Histórias de Transformação</h2>
+    <p class="mt-4 text-gray-700 leading-relaxed">
+      Muitos detentos encontraram forças para recomeçar por meio da leitura da Bíblia. Essa mudança não apenas impacta suas vidas, mas também inspira famílias e comunidades inteiras.
+    </p>
+
+    <!-- Vídeo -->
+    <div class="mt-6 w-full rounded-xl overflow-hidden shadow-lg aspect-video">
+      <iframe class="w-full h-full" src="https://www.youtube.com/embed/i7ZZfPDdln4" title="Vídeo Inspirador" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-gray-100 p-6 mt-12 text-center text-gray-600 relative">
+    <p>Entre em contato: 
+      <a href="mailto:contato@campanha.org" class="text-blue-600 hover:underline">contato@campanha.org</a>
+    </p>
+
+    <!-- Ícones fixos no mobile -->
+    <div class="flex justify-center gap-8 mt-4 text-gray-700 md:static fixed bottom-0 left-0 w-full bg-gray-100 py-3 md:py-0 shadow md:shadow-none">
+      <a href="#" class="hover:text-blue-800"><i data-lucide="facebook" class="w-6 h-6"></i></a>
+      <a href="#" class="hover:text-blue-800"><i data-lucide="instagram" class="w-6 h-6"></i></a>
+      <a href="#" class="hover:text-blue-800"><i data-lucide="x" class="w-6 h-6"></i></a>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
